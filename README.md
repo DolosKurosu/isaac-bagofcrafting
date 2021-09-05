@@ -1,5 +1,5 @@
-# isaac-bagofcrafting2
-Generates a bag_of_crafting_recipes.txt file using BladeCoding's isaac-bagofcrafting code as the base. Major credit to him for all of his crazy work on the bulk of this code. This will work with modded itempools.xmls and item-metadata.xmls. 
+# isaac-bagofcrafting-recipe-generator
+Generates a bag_of_crafting_recipes.txt file using BladeCoding's isaac-bagofcrafting code as the base. Major credit to him for all of his crazy work on the bulk of this code. This will work with modded itempools.xmls and item-metadata.xmls. The txt file generated will have the 4 cheapest recipes for every craftable item in itempools.
 
 Note: The itempools.xml was taken from Item Pools Rework mod to use for testing. 
 
