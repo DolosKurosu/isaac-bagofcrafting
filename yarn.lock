@@ -30,15 +30,20 @@
     "balanced-match" "^1.0.0"
     "concat-map" "0.0.1"
 
-"combinations@^1.0.0":
-  "integrity" "sha512-aVgTfI/dewHblSn4gF+NZHvS7wtwg9YAPF2EknHMdH+xLsXLLIMpmHkSj64Zxs/R2m9VAAgn3bENjssrn7V4vQ=="
-  "resolved" "https://registry.npmjs.org/combinations/-/combinations-1.0.0.tgz"
-  "version" "1.0.0"
-
 "commander@^2.19.0":
   "integrity" "sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ=="
   "resolved" "https://registry.npmjs.org/commander/-/commander-2.20.3.tgz"
   "version" "2.20.3"
+
+"complexion-js@^0.2.2":
+  "integrity" "sha512-qxqJq0nEBwSEZtoqK8bHIR2VwzbPatjtlU+ZH9IPObitTQqa2xMEryoAlCsjOH+ATgIScHt0aiCUBabPG2Mmcg=="
+  "resolved" "https://registry.npmjs.org/complexion-js/-/complexion-js-0.2.2.tgz"
+  "version" "0.2.2"
+
+"complexion@^0.2.2":
+  "integrity" "sha512-YAfDsYc27CsPQPzZU4i1OklMCyigN7VHPylWba0AWf5VmVr34NpLhHjJm0gumFh9m2aX8fYGCTTgne7oLfXXug=="
+  "resolved" "https://registry.npmjs.org/complexion/-/complexion-0.2.2.tgz"
+  "version" "0.2.2"
 
 "concat-map@0.0.1":
   "integrity" "sha1-2Klr13/Wjfd5OnMDajug1UBdR3s="
@@ -180,15 +185,25 @@
   dependencies:
     "wrappy" "1"
 
+"option-parser@^1.0.0":
+  "integrity" "sha512-Q56FmRi6TZX+S9jAl9f0Tnrk7W8faAZULf6Y0IgJR6Cy7/MxhzvBFoyL1Sz2DD7WbOY2Fxtkz2S/3kzlbn/VsQ=="
+  "resolved" "https://registry.npmjs.org/option-parser/-/option-parser-1.0.2.tgz"
+  "version" "1.0.2"
+
 "path-is-absolute@^1.0.0":
   "integrity" "sha1-F0uSaHNVNP+8es5r9TpanhtcX18="
   "resolved" "https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz"
   "version" "1.0.1"
 
-"percom@^1.1.2":
-  "integrity" "sha512-rI0lEtzHreXYozMotzywMC8usVJWLzSPXiINGMuICKvkuJua7Pi0WYFAv1NctS2emQXR+j6qviz9DuS0Ae9vgg=="
-  "resolved" "https://registry.npmjs.org/percom/-/percom-1.1.2.tgz"
-  "version" "1.1.2"
+"pretty-js@^0.2.2":
+  "integrity" "sha512-SJIz4tGlSC4LBqSAb82yf1911C4HGILMiDoNn4aoYuHetdFbefdIyMHZ9c1mDsiv0CNSn9ac/kNM1xXdujZ/AA=="
+  "resolved" "https://registry.npmjs.org/pretty-js/-/pretty-js-0.2.2.tgz"
+  "version" "0.2.2"
+  dependencies:
+    "complexion" "^0.2.2"
+    "complexion-js" "^0.2.2"
+    "option-parser" "^1.0.0"
+    "process-files" "^1.0.0"
 
 "pretty@^2.0.0":
   "integrity" "sha1-rbx5YLe7/iiaVX3F9zdhmiINBqU="
@@ -198,6 +213,11 @@
     "condense-newlines" "^0.2.1"
     "extend-shallow" "^2.0.1"
     "js-beautify" "^1.6.12"
+
+"process-files@^1.0.0":
+  "integrity" "sha1-LRq4SHZ1IhhBqiv98iCFYU1YjyM="
+  "resolved" "https://registry.npmjs.org/process-files/-/process-files-1.0.0.tgz"
+  "version" "1.0.0"
 
 "proto-list@~1.2.1":
   "integrity" "sha1-IS1b/hMYMGpCD2QCuOJv85ZHqEk="
